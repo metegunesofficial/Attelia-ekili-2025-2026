@@ -27,5 +27,6 @@ export interface RaffleResult {
   winnerId?: string;
   giftTitle: string;
   giftCategory: string;
+  sponsor: string; // Hediyeyi veren şirket
   drawnAt: string;
 }
